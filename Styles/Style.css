@@ -51,11 +51,13 @@
 }
 
 .nav-link{
-    color: black;
-    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin: 7% 0%;
 }
+
 .nav-link:hover{
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 .navbar-nav{
@@ -63,10 +65,36 @@
 }
 
 .btn button{
+    font-weight: 700;           
     border: 3px solid rgb(39, 39, 39);
+    transition: 300ms smooth;
 }
 
 .btn button:hover{
     background-color: rgb(39, 39, 39);
     color: white;
 }
+
+.container-fluid p{
+    margin: 3% 0;
+}
+
+.container-fluid h1{
+    font-weight: 900;
+    margin: 50px 0px;
+}
+
+/* Footer Start */
+.col-sm-2{
+    margin: 2.5%;
+}
+
+.col-sm-2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.col-sm-2 a:hover{
+    color: black;
+}
+/* Footer End */
